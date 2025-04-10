@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vremenska prognoza s detaljnim podacima o temperaturi, vlažnosti i uvjetima.">
+    <meta name="author" content="Marko Petričević">
+    <meta http-equiv="refresh" content="30">
+    <link rel="stylesheet" href="style.css">
+    <title>Vremenska prognoza</title>
+</head>
+<body>
+    <header>
+        <h1>Dobrodošli na moju web stranicu za vremensku prognozu</h1>
+    </header>
+    <nav aria-label="Glavna navigacija">
+        <div class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="grafikon.html">Grafikon</a></li>
+            <li><a href="slike.html">Galerija</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section aria-label="Vremenski podaci">
+            <h2>Vremenski Podaci</h2>
+            <div class="table-container">
+                <table role="table" aria-label="Vremenski podaci">
+                    <tr>
+                        <th scope="col">Temp (°C)</th>
+                        <th scope="col">Humidity (%)</th>
+                        <th scope="col">Wind Speed (km/h)</th>
+                        <th scope="col">Precip (%)</th>
+                        <th scope="col">Cloud Cover</th>
+                        <th scope="col">Pressure</th>
+                        <th scope="col">UV Index</th>
+                        <th scope="col">Season</th>
+                        <th scope="col">Visibility (km)</th>
+                        <th scope="col">Location</th>
+                        <th scope="col">Weather</th>
+                    </tr>
+                    <tr><td>20</td><td>69</td><td>9.5</td><td>18</td><td>clear</td><td>1012.91</td><td>9</td><td>Spring</td><td>8.5</td><td>island</td><td>Sunny</td></tr>
+                    <tr><td>36</td><td>48</td><td>3.5</td><td>11</td><td>partly cloudy</td><td>1024.92</td><td>10</td><td>Autumn</td><td>5.5</td><td>mountain</td><td>Sunny</td></tr>
+                    <tr><td>32</td><td>35</td><td>3.5</td><td>9</td><td>partly cloudy</td><td>1010.24</td><td>6</td><td>Summer</td><td>9</td><td>coastal</td><td>Sunny</td></tr>
+                    <tr><td>23</td><td>23</td><td>3.5</td><td>8</td><td>clear</td><td>1027.09</td><td>5</td><td>Spring</td><td>6.5</td><td>mountain</td><td>Sunny</td></tr>
+                    <tr><td>28</td><td>65</td><td>1.5</td><td>20</td><td>partly cloudy</td><td>1007</td><td>4</td><td>Spring</td><td>8.5</td><td>mountain</td><td>Cloudy</td></tr>
+                    <tr><td>29</td><td>95</td><td>1.5</td><td>20</td><td>partly cloudy</td><td>1013.23</td><td>0</td><td>Spring</td><td>1</td><td>island</td><td>Rainy</td></tr>
+                    <tr><td>35</td><td>63</td><td>8</td><td>8</td><td>clear</td><td>1029.83</td><td>10</td><td>Spring</td><td>3</td><td>mountain</td><td>Sunny</td></tr>
+                    <tr><td>19</td><td>65</td><td>2.5</td><td>20</td><td>partly cloudy</td><td>1016.81</td><td>1</td><td>Spring</td><td>8</td><td>island</td><td>Cloudy</td></tr>
+                    <tr><td>28</td><td>72</td><td>14</td><td>20</td><td>partly cloudy</td><td>1005.12</td><td>1</td><td>Summer</td><td>1</td><td>coastal</td><td>Rainy</td></tr>
+                    <tr><td>40</td><td>94</td><td>15</td><td>6</td><td>clear</td><td>1021.59</td><td>3</td><td>Summer</td><td>4.5</td><td>coastal</td><td>Sunny</td></tr>
+                </table>
+                <aside aria-label="Vremenska slika">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="https://geek.hr/znanost/wp-content/uploads/sites/14/2013/01/mjesec.jpg">
+                        <img src="https://as2.ftcdn.net/v2/jpg/02/76/64/59/1000_F_276645930_rz1Ip1QQEywflmc5IkwJwzN0doV4aEeH.jpg" alt="Sunce ili Mjesec" loading="lazy">
+                    </picture>
+                </aside>
+            </div>
+        </section>
+        <article aria-label="Najnovije vijesti">
+            <h2>Najnovije vijesti</h2>
+            <p>Prognoza za sljedeći tjedan predviđa promjenjivo vrijeme s povremenim kišama.</p>
+        </article>
+    </main>
+    <footer>
+        <p>© 2025. Web Programiranje. Sva prava pridržana.</p>
+    </footer>
+</body>
+</html>
